@@ -423,3 +423,23 @@ body {
   border: transparent;
   box-sizing: border-box;
 }
+
+.main-footer {
+  border: 1px solid red;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  padding: 50px;
+}
+
+.main-footer_title {
+}
+
+.main-footer_form {
+}
+
+.main-footer_contact-list {
+}
+
+.main-footer__contact-list-item {
+}
