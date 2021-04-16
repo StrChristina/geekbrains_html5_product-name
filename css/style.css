@@ -14,6 +14,8 @@ body {
   padding: 50px;
   box-sizing: border-box;
   color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .header::after {
@@ -25,7 +27,7 @@ body {
 
 .header_content {
   width: 500px;
-  float: left;
+  margin: 0 205px 0px 0;
 }
 
 .header_title {
@@ -70,6 +72,8 @@ body {
   width: 100%;
   padding: 49px;
   box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about-product::after {
@@ -81,7 +85,7 @@ body {
 
 .about-product_content {
   width: 685px;
-  float: left;
+  margin: 0px 61px 0 0;
 }
 
 .about-product_title {
@@ -105,10 +109,8 @@ body {
   margin: 0;
 }
 
-.about-product_img {
+.about-product_video {
   display: block;
-  float: right;
-  background-color: #445161;
 }
 
 .dignity {
